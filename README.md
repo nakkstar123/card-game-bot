@@ -1,13 +1,13 @@
 # card-game-bot
 Early stage prototype of a bot that plays a shedding and matching type card game and evaluates the strength of a poker hand.
 
-### Cabo/Kazoo
+## Cabo/Kazoo
 
-## Overview
+### Overview
 
 I've created 5 classes: Game, Player, Pile, Deck, Card. Since each inherits another, the structure is not too complicated.
 
-## Topics
+### Topics
 
 Card: It's basically just two data points: the card's suit and the card's denomination.
 
@@ -20,3 +20,9 @@ Player: Represents a hand in the game. Currently, Game has 2 private member play
 Game: This is the overarching class with all key functions associated with the game such as playing a turn, snapping and calling kazoo. 
 
 Check in-line comments for detailed workings of each function. I recommended going through the header files in the order listed above. 
+
+## Poker hand evaluator
+
+### Overview
+
+A naive poker hand evaluation algorithm and its implementation, supporting 7-card poker. 
