@@ -1,6 +1,8 @@
 # card-game-bot
 Early stage prototype of a bot that plays a shedding and matching type card game and evaluates the strength of a poker hand.
 
+### Cabo/Kazoo
+
 ## Overview
 
 I've created 5 classes: Game, Player, Pile, Deck, Card. Since each inherits another, the structure is not too complicated.
